@@ -42,7 +42,7 @@ class Register extends Component {
                 <form>
                 <input type="text"
                         className= "regField"
-                        placeholder="Your Name"
+                        placeholder="Nombre"
                         onChange={this.handleChange}
                         value={this.state.displayName}
                         name= "displayName" />
@@ -57,7 +57,7 @@ class Register extends Component {
 
                     <input type="password"
                         className= "regField"
-                        placeholder="Password"
+                        placeholder="Contraseña"
                         onChange={this.handleChange}
                         value={this.state.password}
                         name= "password" />

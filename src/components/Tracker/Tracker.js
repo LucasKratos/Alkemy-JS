@@ -118,7 +118,7 @@ class Tracker extends Component {
                 <div className="newTransaction">
                     <form>
                         <input
-                            placeholder="Transaction"
+                            placeholder="Ingrese su movimiento"
                             type="text"
                             name="transactionName"
                             value={this.state.transactionName}
@@ -135,7 +135,7 @@ class Tracker extends Component {
                                 <option value="deposit">Ingreso</option>
                             </select>
                             <input
-                            placeholder="Price"
+                            placeholder="Monto"
                             type="text"
                             name="price"
                             value={this.state.price}

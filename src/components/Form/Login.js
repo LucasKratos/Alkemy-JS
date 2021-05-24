@@ -44,7 +44,7 @@ class Login extends Component {
 
                     <input type="password"
                         className= "regField"
-                        placeholder="Password" 
+                        placeholder="Contraseña" 
                         value={this.state.password}
                         onChange={this.handleChange}
                         name= "password" />
